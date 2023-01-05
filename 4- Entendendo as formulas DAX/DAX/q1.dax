@@ -1,0 +1,10 @@
+﻿EVALUATE
+
+row(
+	"Total Vendinhas",
+	SUMX(
+		Tb_ItensNotas,
+		[Quantidade] * [Preço]
+	)
+)
+		
